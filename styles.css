@@ -1,16 +1,59 @@
-div {
-    background-color: blue;
-
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    gap: 60px;
 }
 
 h1 {
-    color:white
+    color:blue;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    
     
     
 }
+h2{
+    font-family: 'Fraunces', serif;
+}
 ul {
-    color: white
+    color:hsl(212, 27%, 19%)
 }
 p {
     color: gray
 }
+.orange{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+ul {
+    text-align: right;
+}
+.egg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130%;
+   
+}
+.learn {
+    text-decoration-line: underline;
+}
+.cup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109%;
+    height: 100%;
+}
+#div-1{
+    background-color:hsl(212, 27%, 19%);
+}
+ 
+
+
+/*font-family: 'Barlow', sans-serif;
+
